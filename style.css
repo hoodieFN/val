@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(255, 148, 166);
+}
+.bear{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+.bear img{
+    width: 30vh;
+    border-radius: 50px;
+}
+button {
+    position: absolute;
+    transition: top 0.3s, left 0.3s;
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+.yes {
+    margin-right: 150px;
+    
+}
+.no{
+    margin-left: 100px;
+}
+.bt{
+    background-color: #ff66b2; /* jasny róż */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
